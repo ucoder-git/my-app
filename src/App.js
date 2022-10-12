@@ -1,6 +1,10 @@
 import './App.css';
-import UnControlledComponent from './components/2-10.Form/UnControlledComponent';
-import ControlledComponent from './components/2-10.Form/ControlledComponent';
+import State from './components/3-3.Hooks/State';
+import Reducer from './components/3-3.Hooks/State';
+
+// import UnControlledComponent from './components/2-10.Form/UnControlledComponent';
+
+// import ControlledComponent from './components/2-10.Form/ControlledComponent';
 // import List from './components/2-9.List/List';
 // import Condition from './components/2-8.ConditionalRendering/Condition';
 // import Event from './components/2-7.Event/Event';
@@ -13,8 +17,10 @@ import ControlledComponent from './components/2-10.Form/ControlledComponent';
 function App() {
   return (
     <div className="App">
-      <UnControlledComponent/>
-      <ControlledComponent/>
+      <Reducer/>
+      <State/>
+      {/* <UnControlledComponent/> */}
+      {/* <ControlledComponent/> */}
       {/* <List/> */}
       {/* <Condition/> */}
       {/* <Event/> */}
