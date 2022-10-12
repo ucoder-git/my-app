@@ -1,5 +1,9 @@
 import './App.css';
-import Event from './components/2-7.Event/Event';
+import UnControlledComponent from './components/2-10.Form/UnControlledComponent';
+import ControlledComponent from './components/2-10.Form/ControlledComponent';
+// import List from './components/2-9.List/List';
+// import Condition from './components/2-8.ConditionalRendering/Condition';
+// import Event from './components/2-7.Event/Event';
 // import ClassComponent2 from './components/2-6.LifeCycle/ClassComponent';
 // import Composition from './components/2-4.Props/Composition';
 // import Extraction from './components/2-4.Props/Extraction/Extraction'
@@ -9,7 +13,11 @@ import Event from './components/2-7.Event/Event';
 function App() {
   return (
     <div className="App">
-      <Event/>
+      <UnControlledComponent/>
+      <ControlledComponent/>
+      {/* <List/> */}
+      {/* <Condition/> */}
+      {/* <Event/> */}
       {/* <ClassComponent2 />
       <FunctionalComponent/>
       <ClassComponent />
