@@ -1,6 +1,8 @@
 import './App.css';
-import WelcomeDialog from './components/3-5.Composition/WelcomeDialog';
+import Memo from './components/3-8.Memoization/Memo';
 
+
+// import WelcomeDialog from './components/3-5.Composition/WelcomeDialog';
 // import State from './components/3-3.Hooks/State';
 // import Reducer from './components/3-3.Hooks/State';
 
@@ -19,7 +21,8 @@ import WelcomeDialog from './components/3-5.Composition/WelcomeDialog';
 function App() {
   return (
     <div className="App">
-      <WelcomeDialog/>
+      <Memo/>
+      {/* <WelcomeDialog/> */}
       {/* <Reducer/> */}
       {/* <State/> */}
       {/* <UnControlledComponent/> */}
